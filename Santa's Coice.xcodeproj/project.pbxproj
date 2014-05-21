@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CD1AC4192CFFD200E9739D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD1AC3192CFFD200E9739D /* Foundation.framework */; };
+		D0CD1AC6192CFFD200E9739D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD1AC5192CFFD200E9739D /* CoreGraphics.framework */; };
+		D0CD1AC8192CFFD200E9739D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD1AC7192CFFD200E9739D /* UIKit.framework */; };
+		D0CD1ACE192CFFD200E9739D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CD1ACC192CFFD200E9739D /* InfoPlist.strings */; };
+		D0CD1AD0192CFFD200E9739D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD1ACF192CFFD200E9739D /* main.m */; };
+		D0CD1AD4192CFFD200E9739D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD1AD3192CFFD200E9739D /* AppDelegate.m */; };
+		D0CD1AD7192CFFD200E9739D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CD1AD5192CFFD200E9739D /* Main.storyboard */; };
+		D0CD1ADA192CFFD200E9739D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD1AD9192CFFD200E9739D /* ViewController.m */; };
+		D0CD1ADC192CFFD200E9739D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CD1ADB192CFFD200E9739D /* Images.xcassets */; };
+		D0CD1AE3192CFFD200E9739D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD1AE2192CFFD200E9739D /* XCTest.framework */; };
+		D0CD1AE4192CFFD200E9739D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD1AC3192CFFD200E9739D /* Foundation.framework */; };
+		D0CD1AE5192CFFD200E9739D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0CD1AC7192CFFD200E9739D /* UIKit.framework */; };
+		D0CD1AED192CFFD200E9739D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0CD1AEB192CFFD200E9739D /* InfoPlist.strings */; };
+		D0CD1AEF192CFFD200E9739D /* Santa_s_CoiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD1AEE192CFFD200E9739D /* Santa_s_CoiceTests.m */; };
+		D0CD1AFA192D032900E9739D /* ChimneyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CD1AF9192D032900E9739D /* ChimneyLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0CD1AE6192CFFD200E9739D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0CD1AB8192CFFD200E9739D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CD1ABF192CFFD200E9739D;
+			remoteInfo = "Santa's Coice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0CD1AC0192CFFD200E9739D /* Santa's Coice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Santa's Coice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CD1AC3192CFFD200E9739D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0CD1AC5192CFFD200E9739D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0CD1AC7192CFFD200E9739D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0CD1ACB192CFFD200E9739D /* Santa's Coice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Santa's Coice-Info.plist"; sourceTree = "<group>"; };
+		D0CD1ACD192CFFD200E9739D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0CD1ACF192CFFD200E9739D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0CD1AD1192CFFD200E9739D /* Santa's Coice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Santa's Coice-Prefix.pch"; sourceTree = "<group>"; };
+		D0CD1AD2192CFFD200E9739D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D0CD1AD3192CFFD200E9739D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D0CD1AD6192CFFD200E9739D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0CD1AD8192CFFD200E9739D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D0CD1AD9192CFFD200E9739D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D0CD1ADB192CFFD200E9739D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0CD1AE1192CFFD200E9739D /* Santa's CoiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Santa's CoiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CD1AE2192CFFD200E9739D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D0CD1AEA192CFFD200E9739D /* Santa's CoiceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Santa's CoiceTests-Info.plist"; sourceTree = "<group>"; };
+		D0CD1AEC192CFFD200E9739D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0CD1AEE192CFFD200E9739D /* Santa_s_CoiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Santa_s_CoiceTests.m; sourceTree = "<group>"; };
+		D0CD1AF8192D032900E9739D /* ChimneyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChimneyLabel.h; path = "Santa's Coice/ChimneyLabel.h"; sourceTree = "<group>"; };
+		D0CD1AF9192D032900E9739D /* ChimneyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChimneyLabel.m; path = "Santa's Coice/ChimneyLabel.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CD1ABD192CFFD200E9739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD1AC6192CFFD200E9739D /* CoreGraphics.framework in Frameworks */,
+				D0CD1AC8192CFFD200E9739D /* UIKit.framework in Frameworks */,
+				D0CD1AC4192CFFD200E9739D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CD1ADE192CFFD200E9739D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD1AE3192CFFD200E9739D /* XCTest.framework in Frameworks */,
+				D0CD1AE5192CFFD200E9739D /* UIKit.framework in Frameworks */,
+				D0CD1AE4192CFFD200E9739D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CD1AB7192CFFD200E9739D = {
+			isa = PBXGroup;
+			children = (
+				D0CD1AF8192D032900E9739D /* ChimneyLabel.h */,
+				D0CD1AF9192D032900E9739D /* ChimneyLabel.m */,
+				D0CD1AC9192CFFD200E9739D /* Santa's Coice */,
+				D0CD1AE8192CFFD200E9739D /* Santa's CoiceTests */,
+				D0CD1AC2192CFFD200E9739D /* Frameworks */,
+				D0CD1AC1192CFFD200E9739D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CD1AC1192CFFD200E9739D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD1AC0192CFFD200E9739D /* Santa's Coice.app */,
+				D0CD1AE1192CFFD200E9739D /* Santa's CoiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CD1AC2192CFFD200E9739D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD1AC3192CFFD200E9739D /* Foundation.framework */,
+				D0CD1AC5192CFFD200E9739D /* CoreGraphics.framework */,
+				D0CD1AC7192CFFD200E9739D /* UIKit.framework */,
+				D0CD1AE2192CFFD200E9739D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0CD1AC9192CFFD200E9739D /* Santa's Coice */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD1AD2192CFFD200E9739D /* AppDelegate.h */,
+				D0CD1AD3192CFFD200E9739D /* AppDelegate.m */,
+				D0CD1AD5192CFFD200E9739D /* Main.storyboard */,
+				D0CD1AD8192CFFD200E9739D /* ViewController.h */,
+				D0CD1AD9192CFFD200E9739D /* ViewController.m */,
+				D0CD1ADB192CFFD200E9739D /* Images.xcassets */,
+				D0CD1ACA192CFFD200E9739D /* Supporting Files */,
+			);
+			path = "Santa's Coice";
+			sourceTree = "<group>";
+		};
+		D0CD1ACA192CFFD200E9739D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD1ACB192CFFD200E9739D /* Santa's Coice-Info.plist */,
+				D0CD1ACC192CFFD200E9739D /* InfoPlist.strings */,
+				D0CD1ACF192CFFD200E9739D /* main.m */,
+				D0CD1AD1192CFFD200E9739D /* Santa's Coice-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CD1AE8192CFFD200E9739D /* Santa's CoiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD1AEE192CFFD200E9739D /* Santa_s_CoiceTests.m */,
+				D0CD1AE9192CFFD200E9739D /* Supporting Files */,
+			);
+			path = "Santa's CoiceTests";
+			sourceTree = "<group>";
+		};
+		D0CD1AE9192CFFD200E9739D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CD1AEA192CFFD200E9739D /* Santa's CoiceTests-Info.plist */,
+				D0CD1AEB192CFFD200E9739D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CD1ABF192CFFD200E9739D /* Santa's Coice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CD1AF2192CFFD200E9739D /* Build configuration list for PBXNativeTarget "Santa's Coice" */;
+			buildPhases = (
+				D0CD1ABC192CFFD200E9739D /* Sources */,
+				D0CD1ABD192CFFD200E9739D /* Frameworks */,
+				D0CD1ABE192CFFD200E9739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Santa's Coice";
+			productName = "Santa's Coice";
+			productReference = D0CD1AC0192CFFD200E9739D /* Santa's Coice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0CD1AE0192CFFD200E9739D /* Santa's CoiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CD1AF5192CFFD200E9739D /* Build configuration list for PBXNativeTarget "Santa's CoiceTests" */;
+			buildPhases = (
+				D0CD1ADD192CFFD200E9739D /* Sources */,
+				D0CD1ADE192CFFD200E9739D /* Frameworks */,
+				D0CD1ADF192CFFD200E9739D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CD1AE7192CFFD200E9739D /* PBXTargetDependency */,
+			);
+			name = "Santa's CoiceTests";
+			productName = "Santa's CoiceTests";
+			productReference = D0CD1AE1192CFFD200E9739D /* Santa's CoiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CD1AB8192CFFD200E9739D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ryan Tiltz";
+				TargetAttributes = {
+					D0CD1AE0192CFFD200E9739D = {
+						TestTargetID = D0CD1ABF192CFFD200E9739D;
+					};
+				};
+			};
+			buildConfigurationList = D0CD1ABB192CFFD200E9739D /* Build configuration list for PBXProject "Santa's Coice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0CD1AB7192CFFD200E9739D;
+			productRefGroup = D0CD1AC1192CFFD200E9739D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CD1ABF192CFFD200E9739D /* Santa's Coice */,
+				D0CD1AE0192CFFD200E9739D /* Santa's CoiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CD1ABE192CFFD200E9739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD1ADC192CFFD200E9739D /* Images.xcassets in Resources */,
+				D0CD1ACE192CFFD200E9739D /* InfoPlist.strings in Resources */,
+				D0CD1AD7192CFFD200E9739D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CD1ADF192CFFD200E9739D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD1AED192CFFD200E9739D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CD1ABC192CFFD200E9739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD1ADA192CFFD200E9739D /* ViewController.m in Sources */,
+				D0CD1AD4192CFFD200E9739D /* AppDelegate.m in Sources */,
+				D0CD1AFA192D032900E9739D /* ChimneyLabel.m in Sources */,
+				D0CD1AD0192CFFD200E9739D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CD1ADD192CFFD200E9739D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CD1AEF192CFFD200E9739D /* Santa_s_CoiceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0CD1AE7192CFFD200E9739D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0CD1ABF192CFFD200E9739D /* Santa's Coice */;
+			targetProxy = D0CD1AE6192CFFD200E9739D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0CD1ACC192CFFD200E9739D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CD1ACD192CFFD200E9739D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D0CD1AD5192CFFD200E9739D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CD1AD6192CFFD200E9739D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0CD1AEB192CFFD200E9739D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CD1AEC192CFFD200E9739D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0CD1AF0192CFFD200E9739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0CD1AF1192CFFD200E9739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0CD1AF3192CFFD200E9739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa's Coice/Santa's Coice-Prefix.pch";
+				INFOPLIST_FILE = "Santa's Coice/Santa's Coice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0CD1AF4192CFFD200E9739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa's Coice/Santa's Coice-Prefix.pch";
+				INFOPLIST_FILE = "Santa's Coice/Santa's Coice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D0CD1AF6192CFFD200E9739D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Santa's Coice.app/Santa's Coice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa's Coice/Santa's Coice-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Santa's CoiceTests/Santa's CoiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D0CD1AF7192CFFD200E9739D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Santa's Coice.app/Santa's Coice";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santa's Coice/Santa's Coice-Prefix.pch";
+				INFOPLIST_FILE = "Santa's CoiceTests/Santa's CoiceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CD1ABB192CFFD200E9739D /* Build configuration list for PBXProject "Santa's Coice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CD1AF0192CFFD200E9739D /* Debug */,
+				D0CD1AF1192CFFD200E9739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CD1AF2192CFFD200E9739D /* Build configuration list for PBXNativeTarget "Santa's Coice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CD1AF3192CFFD200E9739D /* Debug */,
+				D0CD1AF4192CFFD200E9739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0CD1AF5192CFFD200E9739D /* Build configuration list for PBXNativeTarget "Santa's CoiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CD1AF6192CFFD200E9739D /* Debug */,
+				D0CD1AF7192CFFD200E9739D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CD1AB8192CFFD200E9739D /* Project object */;
+}
